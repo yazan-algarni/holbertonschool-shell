@@ -1,1 +1,2 @@
-# Basics Shell basics project: simple shell scripts.
+# holbertonschool-shell
+Shell projects from Holberton School.
