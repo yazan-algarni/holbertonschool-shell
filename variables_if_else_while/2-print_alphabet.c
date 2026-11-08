@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
 * main - method print charecter from a to z
 *
 * Return: always 0 (Seccess)
