@@ -2,11 +2,17 @@
 /**
 * main - function to print numbers from 0 to 9
 *
-* return : always 0 (seccess)
+* Return : always 0 (seccess)
 */
 int main(void)
 {
-	print(0,1,2,3,4,5,6,7,8,9,"\n");
+	int i;
+
+	for ( i=0;i<10;i++)
+		printf("%d",i);
+
+
+	putchar('\n');
 	return (0);
 }
 
