@@ -9,11 +9,10 @@ int main(void)
 {
 	int i;
 
-	for (i = 48; i < 58; i++)
+	for (i = 48; i < 103; i++)
 		putchar(i);
-
-	for (i = 97; i <123; i++)
-		putchar(i);
+		if (i==57)
+			i=97;
 
 
 	putchar('\n');
