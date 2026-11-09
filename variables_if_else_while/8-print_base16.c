@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
-* main - Print numbers from 0 to 9
+* main - Print numbers from 0 to 9 and letters from a to z
 *
 * Return: Always 0
 */
@@ -9,10 +9,12 @@ int main(void)
 {
 	int i;
 
-	for (i = 48; i < 123; i++)
+	for (i = 48; i < 58; i++)
 		putchar(i);
-		if (i==57)
-			i = 97;
+
+	for (i = 97; i <123; i++)
+		putchar(i);
+
 
 	putchar('\n');
 	return (0);
