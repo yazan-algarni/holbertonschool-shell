@@ -12,7 +12,7 @@ int main(void)
 	for (i = 48; i < 123; i++)
 		putchar(i);
 		if (i==57)
-			i = 97
+			i = 97;
 
 	putchar('\n');
 	return (0);
